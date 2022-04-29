@@ -13,14 +13,12 @@ string input()
 string en101(string str)
 {
     string message ;
-    int i,j=19,s;
+    int i,j=5,s;
     message=str;
     s=message.length();
     for(i=0;i<s;i++)
     {
         message[i]=message[i]+j;
-        j=j+13;
-        
 
     }
     return message;
@@ -28,13 +26,13 @@ string en101(string str)
 string de101(string str)
 {
     string message;
-    int i,j=19,s;
+    int i,j=5,s;
     message=str;
     s=message.length();
     for(i=0;i<s;i++)
     {
         message[i]=message[i]-j;
-        j=j+13;
+
     }
     return  message;    
 }
