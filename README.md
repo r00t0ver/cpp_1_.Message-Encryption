@@ -1,3 +1,1 @@
-# 1-cpp-.Message-Encryption
-
-You can encrypt a message and decrypt a message with this.
+The lastest version won't require the header file (header.h)
